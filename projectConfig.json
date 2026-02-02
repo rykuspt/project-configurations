@@ -1,0 +1,56 @@
+{
+  "projectKey": "dummy",
+  "memory": "2Gi",
+  "jenkinsUser": "folhas",
+  "gitId": "2677c16d-592b-4b8e-a95a-be5d684c6d1b",
+  "connectedAppCredentials": "anypoint-connected-app",
+  "connectedAppCredentialsProd": "anypoint-connected-app",
+  "anypointPlatformCredentials": "",
+  "sopsAgeCredentialsId": "",
+  "testConfiguration": {
+    "test": {
+      "basePath": "",
+      "certificateCredentialsId": "",
+      "idpCredentialsId": "",
+      "apisWithClientIdEnforcement": {}
+    }
+  },
+  "userGroupNonLive": "",
+  "userGroupLive": "",
+  "permissionCheckEnabled": true,
+  "deployParameters": {
+    "environments": {
+      "dev": {
+        "muleEnv": "dev",
+        "environmentType": "dev",
+        "cloudhub2Target": "us-east-2"
+      },
+      "test": {
+        "muleEnv": "test",
+        "environmentType": "test",
+        "cloudhub2Target": "us-east-2"
+      },
+      "qa": {
+        "muleEnv": "qa",
+        "environmentType": "qa",
+        "cloudhub2Target": "us-east-2"
+      },
+      "prod": {
+        "muleEnv": "prod",
+        "environmentType": "prod",
+        "cloudhub2Target": "us-east-2"
+      }
+    },
+    "repositories": [
+      "",
+      ""
+    ],
+    "businessGroup": {
+      "name": "NA",
+      "id": "1a3af3d7-fc5b-496a-93e0-d7cae29e8600"
+    },
+    "muleRuntimes": [
+      "4.9.9"
+    ]
+  }
+}

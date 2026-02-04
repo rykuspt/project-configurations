@@ -5,7 +5,7 @@
   "gitId": "2677c16d-592b-4b8e-a95a-be5d684c6d1b",
   "connectedAppCredentials": "anypoint-connected-app",
   "connectedAppCredentialsProd": "anypoint-connected-app",
-  "anypointPlatformCredentials": "",
+  "anypointPlatformCredentials": "anypoint-platform-user",
   "sopsAgeCredentialsId": "",
   "testConfiguration": {
     "test": {

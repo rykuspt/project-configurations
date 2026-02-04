@@ -3,10 +3,14 @@
   "memory": "2Gi",
   "jenkinsUser": "folhas",
   "gitId": "2677c16d-592b-4b8e-a95a-be5d684c6d1b",
+
   "connectedAppCredentials": "anypoint-connected-app",
   "connectedAppCredentialsProd": "anypoint-connected-app",
-  "anypointPlatformCredentials": "anypoint-platform-user",
+
+  "anypointPlatformCredentialsId": "anypoint-platform-user",
+
   "sopsAgeCredentialsId": "",
+
   "testConfiguration": {
     "test": {
       "basePath": "",
@@ -15,9 +19,11 @@
       "apisWithClientIdEnforcement": {}
     }
   },
+
   "userGroupNonLive": "",
   "userGroupLive": "",
   "permissionCheckEnabled": true,
+
   "deployParameters": {
     "environments": {
       "dev": {
@@ -25,30 +31,43 @@
         "environmentType": "dev",
         "cloudhub2Target": "us-east-2"
       },
+
+      "sandbox": {
+        "muleEnv": "SANDBOX",
+        "environmentType": "dev",
+        "cloudhub2Target": "us-east-2",
+        "muleRuntime": "4.9.0",
+        "workers": 1,
+        "workerType": "Micro"
+      },
+
       "test": {
         "muleEnv": "test",
         "environmentType": "test",
         "cloudhub2Target": "us-east-2"
       },
+
       "qa": {
         "muleEnv": "qa",
         "environmentType": "qa",
         "cloudhub2Target": "us-east-2"
       },
+
       "prod": {
         "muleEnv": "prod",
         "environmentType": "prod",
         "cloudhub2Target": "us-east-2"
       }
     },
-    "repositories": [
-      "",
-      ""
-    ],
+
+    // MUST NOT contain empty strings → they break pipelines
+    "repositories": [],
+
     "businessGroup": {
       "name": "NA",
       "id": "1a3af3d7-fc5b-496a-93e0-d7cae29e8600"
     },
+
     "muleRuntimes": [
       "4.9.9"
     ]

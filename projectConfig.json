@@ -60,7 +60,6 @@
       }
     },
 
-    // MUST NOT contain empty strings → they break pipelines
     "repositories": [],
 
     "businessGroup": {

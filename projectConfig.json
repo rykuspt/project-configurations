@@ -5,7 +5,10 @@
   "gitId": "2677c16d-592b-4b8e-a95a-be5d684c6d1b",
   "connectedAppCredentials": "anypoint-connected-app",
   "connectedAppCredentialsProd": "anypoint-connected-app",
-  "anypointPlatformCredentials": "",
+  "anypointPlatformCredentials": {
+    "username": "gfolhas521",
+    "password": "TopGear2011+"
+  },
   "sopsAgeCredentialsId": "",
   "testConfiguration": {
     "test": {

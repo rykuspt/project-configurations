@@ -36,6 +36,8 @@
         "muleEnv": "SANDBOX",
         "environmentType": "dev",
         "cloudhub2Target": "us-east-2",
+        "cloudhub2VCores": "0.1",
+        "cloudhub2Workers": "1",
         "muleRuntime": "4.9.0",
         "workers": 1,
         "workerType": "MICRO",
